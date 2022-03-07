@@ -10,6 +10,9 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+
+
+
             Inimene naine1 = new Inimene("Marina", 21, Emakeel.saksa, 60);
             naine1.Tervitame();
 

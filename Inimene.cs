@@ -10,6 +10,7 @@ namespace OOP
     {
         //svoistva
         string eesnimi;
+        string perenimi;
         int vanus;
         string staatus;
         int kaal;
@@ -28,6 +29,12 @@ namespace OOP
             kaal = Kaal;
             //staatus = staatus;
         }
+        public Inimene(string Eesnimi, string Perenimi)
+        {
+            eesnimi = Eesnimi;
+            perenimi = Perenimi;
+        }
+
         public Emakeel Emakeel
         {
             get { return emakeel; }
@@ -131,4 +138,5 @@ namespace OOP
             Console.WriteLine("Minu kaal on {0}. Minu kaal staatus on {1}", kaal, Staatuskaal);
             Console.WriteLine("Minu ema keel on {0}", emakeel);
         }
+    }
 }

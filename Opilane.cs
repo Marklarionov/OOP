@@ -21,6 +21,13 @@ namespace OOP
             set { ruhm = value; }
             get { return ruhm; }
         }     
+
+        public int vanus
+        {
+            set { vanus = value; }
+            get { return vanus; }
+        }
+
         public double Hinne
         {
             set 
@@ -48,6 +55,7 @@ namespace OOP
         {
             string t = "";
             Console.WriteLine("Opilane: {0} {1}", Eesnimi, Perenimi);
+            Console.WriteLine("Opilane vanus: {0}",Vanus);
             if (toetus == true)
             {
                 t = "Saan toetust kätte";
